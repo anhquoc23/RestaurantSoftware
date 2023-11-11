@@ -9,7 +9,7 @@ import uuid
 
 metadata = MetaData()
 Base = declarative_base()
-data = create_engine('sqlite:///RESTAURANT/DATA/restaurant.sqlite')
+data = create_engine('sqlite:///restaurant.sqlite')
 
 
 class Employee(Base):
